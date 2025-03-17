@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .menu {
+             background-color: #18082d;
+             display: flex;
+             justify-content: space-between;
+            padding: 20px;
+         } 
+        ul{
+            background-color: #18082d;
+            list-style-type: none;
+            padding: 20px;
+            text-align: right;
+        }
+        li {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            display: inline-block;
+            margin-left: 5px;
+        }
+        a {
+            padding: 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: #ececec;
+        }
+        a:hover {
+            font-size: 1.2em;
+            border-radius: 5px;
+            color: yellow;
+            transition: 0.2s;
+            outline: 3px solid yellow;
+        } 
+        img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+  <ul class="menu">
+    <ul>
+        <img src="https://assets.dio.me/NE7uaL6XGP-9iGInOaN5IGlCkhpX-81xNRT38bh__J0/f:webp/q:80/L2FydGljbGVzL2NvdmVyL2E0YjUyMjFjLTVkMzgtNGY4Mi04MzBlLTc4YTY1NWI4N2RlNi5qcGc" alt="" width="50px" height="50px">
+    </ul>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+  </ul>
+</body>
+</html>
