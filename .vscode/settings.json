@@ -1,22 +1,54 @@
 {
     "git.autofetch": true, /*faz o fetch automaticamente*/ 
     "workbench.iconTheme": "symbols", /*muda os icones*/ 
-    "files.autoSave": "afterDelay", /*salva automaticamente*/ "liveServer.settings.donotShowInfoMsg": true, /*não mostra a mensagem de info do live server*/ "workbench.colorTheme": "Min Dark", /*muda o tema do vscode*/ "editor.fontFamily": "jetBrains Mono", /*muda a fonte do vscode*/ 
+    "files.autoSave": "afterDelay", /*salva automaticamente*/  
+    "workbench.colorTheme": "Min Dark", /*muda o tema do vscode*/ 
+    "editor.fontFamily": "jetBrains Mono", /*muda a fonte do vscode*/ 
     "editor.fontSize": 14, /*muda o tamanho da fonte*/ 
     "editor.lineHeight": 1.8, /*muda a altura da linha*/ 
     "editor.rulers": [80, 120], /*adiciona linhas verticais*/ 
-    "workbench.startupEditor": "newUntitledFile", /*abre um novo arquivo ao iniciar o vscode*/ "editor.renderLineHighlight": "gutter", /*destaca a linha no gutter*/ 
+    "workbench.startupEditor": "newUntitledFile", /*abre um novo arquivo ao iniciar o vscode*/ 
+    "editor.renderLineHighlight": "gutter", /*destaca a linha no gutter*/ 
     "editor.fontLigatures": true, /*liga as fontes*/ 
-    "workbench.editor.labelFormat": "short", /*muda o formato do nome do arquivo*/ "explorer.compactFolders": false, /*Ctrl+Q = revelar o menu*/ 
+    "workbench.editor.labelFormat": "short", /*muda o formato do nome do arquivo*/ 
+    "explorer.compactFolders": false, /*Ctrl+Q = revelar o menu*/ 
     "editor.minimap.enabled": false, /*esconde o minimapa */ 
-    "files.autoSave": "afterDelay", /*salva automaticamente*/
-    "editor.scrollbar.vertical": "hidden", /*esconde a barra de rolagem vertical*/ "editor.scrollbar.horizontal": "hidden", /*esconde a barra de rolagem horizontal*/ "window.commandCenter": false, /*esconde o command center*/ "workbench.editor.showTabs": "none", /*esconde a barra de status*/ 
+    "editor.scrollbar.vertical": "hidden", /*esconde a barra de rolagem vertical*/ 
+    "editor.scrollbar.horizontal": "hidden", /*esconde a barra de rolagem horizontal*/ 
+    "window.commandCenter": false, /*esconde o command center*/ 
+    "workbench.editor.showTabs": "none", /*esconde a barra de status*/ 
     "editor.wordWrap": "on", /*quebra de linha*/ 
-    "window.titleBarStyle": "native", /*muda o estilo da barra de titulo*/ "workbench.statusBar.visible": false, /*esconde a barra de status*/ "window.menuBarVisibility": "toggle", /*esconde a barra de menu*/ "workbench.activityBar.location": "hidden", /*esconde a barra de atividades*/ "window.customTitleBarVisibility": "never", /*esconde a barra de titulo*/ "liveServer.settings.donotVerifyTags": true, /*não verifica as tags*/ 
-    "workbench.colorCustomizations": {
+    "workbench.statusBar.visible": false, /*esconde a barra de status*/ 
+    "workbench.activityBar.location": "hidden", /*esconde a barra de atividades*/  
+   "workbench.colorCustomizations": {
         "editor.lineHighlightBorder": "#ff990027", /* Laranja */
-        "editor.lineHighlightBackground": "#ff990007" /* Fundo sutil */
+        "editor.lineHighlightBackground": "#ff990007", /* Fundo sutil */
+        "terminal.background": "#0e0e0d", // Cor de fundo do terminal
+        "terminal.foreground": "#fcf8f1", // Cor do texto do terminal (laranja)
+        "terminal.border": "#ff9900", // Cor da borda do terminal (laranja)
+        "editor.background": "#0e0e0d", // Cor de fundo do editor
+        "editor.foreground": "#fcf8f1", // Cor do texto do editor
+        "editor.selectionBackground": "#ff99007a", // Cor do texto selecionado
+        "editorCursor.foreground": "#ff9900", // Cor do cursor do editor (laranja)
+        "editorLineNumber.foreground": "#fcf8f1", // Cor do número da linha
+        "editorLineNumber.activeForeground": "#ff9900", // Cor do número da linha ativa
+        "sideBar.background": "#0e0e0d", // Cor de fundo do explorador de arquivos
+        "sideBar.foreground": "#fcf8f1", // Cor do texto do explorador de arquivos
+        "sideBarSectionHeader.background": "#252526", // Cor de fundo do cabeçalho da seção do explorador
+        "sideBarSectionHeader.foreground": "#fcf8f1", // Cor do texto do cabeçalho da seção do explorador
+        "sideBarTitle.foreground": "#fcf8f1", // Cor do título do explorador de arquivos
+        "list.activeSelectionBackground": "#ff99007a", // Cor de fundo da seleção ativa no explorador
+        "list.activeSelectionForeground": "#fcf8f1", // Cor do texto da seleção ativa no explorador
+        "list.inactiveSelectionBackground": "#ff99007a", // Cor de fundo da seleção inativa no explorador
+        "list.inactiveSelectionForeground": "#fcf8f1", // Cor do texto da seleção inativa no explorador
+        "list.hoverBackground": "#ff99007a", // Cor de fundo ao passar o mouse sobre um item no explorador
+        "list.hoverForeground": "#fcf8f1" // Cor do texto ao passar o mouse sobre um item no explorador
     },
+       
+    "editor.tokenColorCustomizations": {
+        "comments": "#504f4e" // Cor dos comentários   
+    },
+
         "powermode.enabled": false, /*efeito de partículas*/
         "powerMode.presets": "particles", /*efeito de partículas*/
         "powermode.combo.counter.enabled": false, /*desabilita o contador de combos*/
