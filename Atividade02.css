@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,9 +49,10 @@ a {
     border-radius: 5px;
 }
 a:hover {
+    color: black;
     border-radius: 5px;
-    color: yellow;
+    background-color: yellow;
     transition: 0.2s;
-    outline: 3px solid yellow;
+    outline: 3px solid rgb(0, 0, 0);
 } 
-
+ */

@@ -14,13 +14,13 @@
     "editor.wordWrap": "on", /*quebra de linha*/ 
     "window.titleBarStyle": "native", /*muda o estilo da barra de titulo*/ "workbench.statusBar.visible": false, /*esconde a barra de status*/ "window.menuBarVisibility": "toggle", /*esconde a barra de menu*/ "workbench.activityBar.location": "hidden", /*esconde a barra de atividades*/ "window.customTitleBarVisibility": "never", /*esconde a barra de titulo*/ "liveServer.settings.donotVerifyTags": true, /*não verifica as tags*/ 
     "workbench.colorCustomizations": {
-    "editor.lineHighlightBorder": "#ff990027", /* Laranja */
-    "editor.lineHighlightBackground": "#ff990007" /* Fundo sutil */
+        "editor.lineHighlightBorder": "#ff990027", /* Laranja */
+        "editor.lineHighlightBackground": "#ff990007" /* Fundo sutil */
     },
         "powermode.enabled": false, /*efeito de partículas*/
         "powerMode.presets": "particles", /*efeito de partículas*/
         "powermode.combo.counter.enabled": false, /*desabilita o contador de combos*/
-        "powermode.shake.enabled": false, /* Remove o efeito de tremor */
-        "powermode.explosionSize": 6 /* Aumenta o tamanho da explosão */
+        "powermode.shake.enabled": false,
+        "powermode.explosions.size": 6 /* Aumenta o tamanho da explosão */
 }
 
