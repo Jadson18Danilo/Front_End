@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+body{
+    background-color: #ebf3ff;
+    margin: 2em;
+}
+h1{
+    background-color: #192433;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    background-color: #515964;
+    border-bottom: 3px solid #192433;
+    color: white;
+    padding: 10px;
+}
+h3{
+    color: black;
+    padding: 10px 0;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    margin-left: 5px;
+}
+a {
+    background-color: #18082d;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ececec;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 + p{
+    padding-left: 10px;
+}
+
+.contato{
+    list-style-type: none;
+    text-align: end;
+    padding: 10px;
+}
+.Brasileiro {
+    text-align: center;
+}
