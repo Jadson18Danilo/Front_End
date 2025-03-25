@@ -37,7 +37,6 @@ h1{
 }
 
 h3{
- 
     border-bottom: 3px solid white;
     padding: 10px;
 }
@@ -54,11 +53,8 @@ a {
     background-color: #192433;
     outline: 2px solid white;
     color: white;
-    padding: 10px;
-    display: inline-block;
     text-decoration: none;
     border-radius: 8px;
-    margin-left: 10px;
 }
 
 .header{
