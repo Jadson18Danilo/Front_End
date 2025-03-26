@@ -7,29 +7,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 5vw 25vw;
-    line-height: 1.2;
-    padding: 10px;
-    border-radius: 20px;
-    border: 3px solid #192433;
+    background-image: url(https://i.pinimg.com/736x/73/17/2a/73172a3c35425e8496782a999f183cb8.jpg);
+    color: white;
+    background-position-x: center;
+    background-attachment: fixed;
 }
 
 ul {
-    margin: 10px;
-    list-style-type: none;
-}
-
-img {
-    width: 20em;
-    height: auto;
-    margin: 15px auto;
-    display: block;
-    /* float: center; */
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+    text-align: justify;
 }
 
 li {
@@ -38,7 +23,7 @@ li {
 }
 
 hr {
-    margin-top: 10px;
+    margin: 10px;
 }
 
 a {
@@ -53,9 +38,42 @@ a {
     cursor: pointer;
 }
 
-h1 {
-    text-align: center;
+h1, h3 {
     padding: 20px;
+    text-align: center;
 }
 
 
+.Pergaminho {
+    text-align: center;
+    margin: 5vw 25vw;
+    line-height: 1.2;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #192433e3;
+    background-color: #192433e3;
+    backdrop-filter: blur(5px);
+}
+
+.imagem {
+    mask-repeat: no-repeat;
+    margin-left: auto ;
+    width: 100%;
+    height: auto;
+    /* float: center; */
+}
+
+.Footer {
+    margin: 20px;
+    text-align: center;
+}
+
+h1:hover{
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: underline;
+}
+p:hover{
+    background-color: #192433;
+}
