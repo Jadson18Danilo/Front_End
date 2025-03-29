@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    padding: 8em;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-gratis/atraente-design-de-fundo-padrao-de-pegada-fofa_1017-49663.jpg?semt=ais_hybrid);
+    padding: 5em;
+}
+
+
+a {
+    border: 3px solid  rgb(10, 10, 153);
+    border-radius: 10px;
+    color: rgb(10, 10, 153);
+    text-decoration: none;
+    padding: 12px;
+}
+
+h1{
+    font-size: 2em;
+    color: orange;
+    text-shadow: 0 0 3px black;
+}
+
+div{
+    align-items: center;
+    border: 3px solid blue;
+}
+
+h2{
+    font-size: 1em;
+}
+
+.container{
+    align-items: center;
+    border: 3px solid red;
+    display: flex;
+    height: 150px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}

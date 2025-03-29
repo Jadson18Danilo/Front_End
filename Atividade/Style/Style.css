@@ -82,7 +82,7 @@ h3:hover{
     width: 300px;
     height: auto;
     margin-left: 10px;
-    margin-bottom: 120px;
+    /* margin-bottom: 10em; */
 }
 
 .imagemEsquerda {
@@ -90,10 +90,15 @@ h3:hover{
     width: 300px;
     height: auto;
     margin-right: 10px;
-    margin-bottom: 120px;
+    /* margin-bottom: 10em; */
 }
 
-.Esquerda{
-    margin-bottom: 210px;
+/* .Esquerda{
+    /* margin-bottom: 210px; 
+}*/
+
+a:hover{
+    color: white;
+    background-color: #192433;
 }
 
