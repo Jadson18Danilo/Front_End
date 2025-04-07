@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+    body {
+        background: linear-gradient(106deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        background-size: 400% 400%;
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form{
+        background-color: rgba(255, 255, 255, 0.466);
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #5f5f5fa8;
+        padding: 1em;
+        width: 350px;
+    }
+
+    fieldset{
+        border: none;
+        padding: 0;
+    }
+    input, label{
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+
+    label{
+        box-sizing: border-box;
+        font-size: 1em;
+        margin-bottom: 1.5em;
+        padding: 0.75em;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+    }
+
+    input{
+        border: 1px solid #a109ff;
+        border-radius: 5px;
+        font-size: 1em;
+        margin-bottom: 1.5em;
+        padding: 0.75em;
+    }
+
+    legend{
+        color: #3e3e3e;
+        font-size: 1.2em;
+        font-weight: 800;
+        padding: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .6em;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"]{
+        font-size: 1.2em;
+        margin-top: 2em;
+    }
+    input[type="submit"]:hover{
+        border: #8a2be2 solid 1px;
+        background-color: #8a2be2;
+        cursor: pointer;
+        background: transparent;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- method="get" envia os dados fica as informações no http -->
+    <form action="#" method="get" >
+        <fieldset>
+            <legend>
+                Cadastre-se
+            </legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo" autofocus required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required minlength="8" maxlength="16">
+            <!-- readonly - usado para leitura -->
+            <input type="submit" value="Enviar">
+        </fieldset>
+        <!-- <br><br>
+        <button>
+            Botão
+        </button>
+        <br><br>
+        <fieldset>
+            <legend>
+                Áreas de interesse
+            </legend>
+            <label for="interesse">
+                <input type="checkbox" name="interesse" id="interesse" name="frontEnd" value="Front-end"> Front-end
+            </label> <br><br>
+            <label for="interesse">
+                <input type="checkbox" name="interesse" name="backEnd" id="interesse" value="Back-end"> Back-end
+            </label> <br><br>
+            <label for="interesse">
+                <input type="checkbox" name="interesse" name="bancodeDados" id="interesse" value="BancodeDados"> Banco de dados
+            </label> <br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>
+                Gênero
+            </legend>
+            <label for="">
+                <input type="radio" name="genero" id="" value="masculino"> Masculino
+            </label>
+            <label for="">
+                <input type="radio" name="genero" id="" value="feminino"> Feminino
+            </label>
+            <label for="">
+                <input type="radio" name="genero" id="" value="outro"> Outro
+            </label>
+        </fieldset> -->
+    </form>
+</body>
+</html>
