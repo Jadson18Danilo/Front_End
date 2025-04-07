@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <!-- campo de texto  -->
+
+    <h1>
+        Formulário de Cadastro
+    </h1>
+
+    <form>
+        <!-- Para colocar um campo de texto, use o elemento <input> com o atributo type definido como "text". <br> -->
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" name="nome" placeholder="Digite seu nome aqui" required> <br>
+        <!-- Para colocar um campo de senha, use o elemento <input> com o atributo type definido como "password". <br> -->
+        <label for="campo_sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" placeholder="Digite seu sobrenome aqui" required> <br>
+        <!-- Para colocar um campo de senha, use o elemento <input> com o atributo type definido como "password". <br> -->
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" name="senha" placeholder="Digite sua senha aqui" required> <br>
+        <!-- Para colocar um campo de número, use o elemento <input> com o atributo type definido como "number". <br> -->
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" name="email" placeholder="Digite seu email aqui" required> <br> <br>
+        <!-- Para enviar um arquivo, use o elemento <input> com o atributo type definido como "file". <br> -->
+        <input type="submit" value="Enviar Formulário"> <br> <br>
+        <!-- Para limpar o formulário, use o elemento <input> com o atributo type definido como "reset". <br> -->
+        <input type="reset" value="Limpar Formulário"> <br>
+
+        <hr> <br>
+
+        <!-- campo select -->
+
+        <h2>
+            Animal de estimação
+        </h2>
+        <input type="radio" name="animal" value="cachorro" id="cachorro">
+        <label for="cachorro">cachorro</label>
+        <input type="radio" name="animal" value="gato" id="gato">
+        <label for="gato">gato</label> 
+        <input type="radio" name="animal" value="passaro" id="passaro">
+        <label for="passaro">passaro</label><br> <br>
+        <input type="submit" value="Enviar Animal"> <hr> <br>
+
+        <!-- campo checkbox -->
+        <h2>
+            O que você tem em casa?
+        </h2>
+        <input type="checkbox" id="item1" value="TV">
+        <label for="item1">TV</label> <br>
+        <input type="checkbox" id="item2" value="Radio">
+        <label for="item2">Radio</label> <br>
+        <input type="checkbox" id="item3" value="Computador">
+        <label for="item3">Computador</label> <br>
+        <input type="checkbox" id="item4" value="Celular"> 
+        <label for="item4">Computador</label> <br>
+        <input type="submit" value="Enviar Itens"> <br> <br>
+        <hr> <br>
+
+        <!-- campo select -->
+        <h2>
+            Escolha uma cor
+        </h2>
+        <select>
+            <option selected disabled value="selecione uma cor">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="preto">Preto</option>
+        </select>
+        <input type="submit" value="Enviar Cor"> <br> <br>
+        <hr> <br>
+        
+        <!-- campo textarea -->
+        <h2>
+            Digite sua mensagem
+        </h2>
+        <textarea name="mensagem" rows="15" cols="55" placeholder="Digite sua mensagem"></textarea>
+        <br> <br>
+        <button>Clique Aqui</button>
+    </form> <br>
+    <hr> <br>
+</body>
+</html>
