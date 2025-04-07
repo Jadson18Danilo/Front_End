@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/atraente-design-de-fundo-padrao-de-pegada-fofa_1017-49663.jpg?semt=ais_hybrid);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-size: cover;/* a imagem se expande para o tamanho da tela */
+     margin: auto;
+     width: 90%;
+}
+
+/* estilo da main */
+
+main{
+    margin: 50px;
+    background-color: #ffffff6d;
+    box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.181);
+    border-radius: 20px;
+    padding: 50px 50px;
+}
+
+/* estilo da nave */
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    border: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: 0008b28;
+}
+
+a :hover{
+    background-color: blue;
+    color:  white;
+    transition: 0.5;
+}
+
+/* estilo do titulo */
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #d89f8b;
+}
+
+/* estilo do article */
+
+.art01,.art02{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 1px 2px 3px 0.;
+}
+
+h2{
+    padding: 10px;
+    background-color: #eee;
+    border: 2px solid blue;
+    margin-top: 0px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+}
+
+.secao_produtos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.produto_img{
+    border: 2px solid #0008bb;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+
+.produto_img img{
+    width: 250px;
+    border: 1px solid;
+}
+
