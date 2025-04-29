@@ -47,12 +47,6 @@
        
     "editor.tokenColorCustomizations": {
         "comments": "#504f4e" // Cor dos comentários   
-    },
-
-        "powermode.enabled": false, /*efeito de partículas*/
-        "powerMode.presets": "particles", /*efeito de partículas*/
-        "powermode.combo.counter.enabled": false, /*desabilita o contador de combos*/
-        "powermode.shake.enabled": false,
-        "powermode.explosions.size": 6 /* Aumenta o tamanho da explosão */
+    }
 }
 
