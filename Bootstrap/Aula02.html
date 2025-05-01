@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Cards</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" defer></script> <!-- com "defer" não á necessario de colocar o script no final -->
+</head>
+<body>
+    <h1 class="display-5 text-center text-bg-dark p2">
+        Trabalhando com cards
+    </h1>
+<div class="container py-5">
+    <!-- div.col-8>div.row.g-0>div.col-4+div.col-8 -->
+    <div class="card col-8">
+        <div class="row g-0">
+            <div class="col-4">
+                <img src="https://picsum.photos/500/1200" alt="foto" class="img-fluid-rounded-start w-100">
+            </div>
+            <div class="col-8">
+                <div class="card-bary">
+                    <h5 class="card-tittle p-3">
+                        Título do Card
+                    </h5>
+                    <h6 class="card subtittle my-2 p-1">
+                        Subititulo do Card
+                    </h6>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur magnam perferendis cumque eius enim nam, doloribus velit a nobis odit!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="card col-4">
+        <img src="https://picsum.photos/400/400" alt="foto" class="card-img-top w-100">
+        <h4 class="card-header  text-bg-dark">
+            Cabeçalho
+        </h4>
+        <div class="card-body">
+            <h5 class="card-tittle">
+                Título do Card
+            </h5>
+            <h6 class="card-subtittle my-1">
+                Preço: R$ 200,00
+            </h6>
+            <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, fugit.
+            </p>
+            <div>
+                <button class="btn btn-primary mb-2" >
+                    Comprar
+                </button>
+                <button class="btn btn-dark"><i class="bi bi-bag"></i>
+                Detalhes
+                </button>
+            </div>
+        </div>
+        <div class="card-footer text-bg-dark">
+            Rodapé
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
