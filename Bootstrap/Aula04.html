@@ -12,9 +12,28 @@
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
         <div class="container-fluid">
             <a href="#" class="navbar-brand d-flex align-items-center">
-                <i class="bi-bootstrap-fill fs-1 ms-2">Bootstrap - 5</i>
+                <i class="bi-bootstrap-fill fs-1 mx-2"></i> Bootstrap - 5
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar"></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="colapse navbar-collapse" id="menuNavbar">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">Principal</a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link drodorwn-toggler" data-bs-toggle="dropdown">Produtos</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">produto 1</a></li>
+                            <li><a href="#" class="dropdown-item">produto 2</a></li>
+                            <li><a href="#" class="dropdown-item">produto 3</a></li>
+                            <li><a href="#" class="dropdown-item">produto 4</a></li>
+                            <li><a href="#" class="dropdown-item">produto 5</a></li>
+                            <li><a href="#" class="dropdown-item">produto 6</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
     
