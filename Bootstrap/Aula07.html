@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Eventos</title>
+
+    <style>
+        body{
+            font: 18pt Arial;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        div#area{
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+        div#area2{
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+        div#area3{
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+        div#area4{
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div id="area" onclick="clicarArea()">
+        Interaja
+    </div>
+
+    <div id="area2" onmouseenter="dentroArea2()">
+        Interaja
+    </div>
+    <div id="area3" onmouseleave="foraArea3()">
+        Interaja
+    </div>
+    <div id="area4" onclick="clicarArea4()" onmouseenter="dentroArea4()" onmouseleave="foraArea4()">
+        Interaja
+    </div>
+
+    <script>
+        function clicarArea(){
+            let a =  document.querySelector('div#area');
+            a.innerText = 'Clicou!'
+            a.style.background = 'green'
+        }
+
+        function dentroArea2(){
+            let b = document.querySelector('div#area2')
+            b.innerText.background = 'Entrou!'
+            b.style.background = 'yellow'
+        }
+
+        function foraArea3(){
+            let c = document.querySelector('div#area3')
+            c.innerText = 'Saiu!'
+            c.style.background = 'blue'
+        }
+
+        function clicarArea4(){
+            let d = document.getElementById('area4')
+            d.innerText = 'Clicou!'
+            d.style.background = 'green'
+        }
+
+        function dentroArea4(){
+            let d = document.getElementById('area4')
+            d.innerText = 'Entrou!'
+            d.style.background = 'yellow'
+        }
+
+        function foraArea4(){
+            let d = document.getElementById('area4')
+            d.innerText = 'Saiu!'
+            d.style.background = 'blue'
+        }
+        
+    </script>
+
+</body>
+</html>
